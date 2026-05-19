@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2026-01-05 12:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+**New paper:** *EvoGround: Self-Evolving Video Agents for Video Temporal Grounding* with Minjoon Jung and Byoung-Tak Zhang.
