@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://farsightlab.github.io/sitemap.xml
