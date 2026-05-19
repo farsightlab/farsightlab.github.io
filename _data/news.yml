@@ -1,0 +1,35 @@
+# Single-file news list for FarSight Lab.
+# Order in this file = order on the page (newest at the top).
+# Each entry:
+#   when    — short timestamp label shown on the page (e.g. "2026", "June 2025", "Nov 2024").
+#   content — Markdown string rendered inline.
+
+- when: "2026"
+  content: "**New paper:** *TrajPilot: Trajectory-Conditioned Egocentric Prediction.* [[project page]](https://farsightlab.github.io/TrajPilot/)"
+
+- when: "2026"
+  content: "**New paper:** *RECIPE: Procedural Planning via Grounding in Instructional Video.* [[project page]](https://farsightlab.github.io/RECIPE/)"
+
+- when: "2026"
+  content: "**New paper:** *EvoGround: Self-Evolving Video Agents for Video Temporal Grounding* with Minjoon Jung and Byoung-Tak Zhang. [[arXiv]](https://arxiv.org/abs/2605.13803) [[project page]](https://minjoong507.github.io/projects/EvoGround/)"
+
+- when: "2026"
+  content: "We have several openings for postdocs, visiting researchers, and PhD students to work on embodied AI, video understanding, and multimodal learning. Prospective applicants should contact [Lorenzo Torresani](mailto:L.Torresani@northeastern.edu) with a CV and a one-page research statement."
+
+- when: "June 2025"
+  content: "Our state-space video model **BIMBA** won first place in the [EgoSchema Challenge](https://egoschema.github.io/) at **CVPR 2025**. [[project page]](https://sites.google.com/view/bimba-mllm)"
+
+- when: "June 2025"
+  content: "Three of our papers received **Distinguished Paper Awards** at the **CVPR 2025 EgoVis Workshop**: *Video ReCap*, *Ego4D Goal-Step*, and *HierVL*. [[awards page]](https://egovis.github.io/awards/2023_2024/)"
+
+- when: "2025"
+  content: "*PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding* accepted to **NeurIPS 2025** as **spotlight (<3.5%)**. [[arXiv]](https://arxiv.org/abs/2504.13180)"
+
+- when: "2025"
+  content: "*Enrich and Detect: Video Temporal Grounding with Multimodal LLMs* accepted to **ICCV 2025** as **highlight (<2.5%)**. [[project page]](https://shramanpramanick.github.io/ED-VTG/)"
+
+- when: "2025"
+  content: "Two papers accepted at **CVPR 2025**: *BIMBA* and *ViTED*."
+
+- when: "Nov 2024"
+  content: "Lorenzo appointed **President Joseph E. Aoun Chair** at Northeastern University."
