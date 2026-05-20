@@ -38,6 +38,24 @@ nav_order: 2
     height: auto;
   }
 
+  .thrust-intro {
+    max-width: 760px;
+    margin: 0.5rem auto 3.5rem;
+    padding: 1.5rem 0 1.75rem;
+    border-top: 1px dashed #b0b0b0;
+    border-bottom: 1px dashed #b0b0b0;
+    font-size: 1.35rem;
+    line-height: 1.55;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    color: var(--global-text-color, inherit);
+  }
+  html[data-theme="dark"] .thrust-intro {
+    border-top-color: rgba(255, 255, 255, 0.28);
+    border-bottom-color: rgba(255, 255, 255, 0.28);
+  }
+
   .thrust-body {
     max-width: 720px;
     margin: 2.5rem auto 0;
@@ -90,6 +108,8 @@ nav_order: 2
   }
 </style>
 
+<p class="thrust-intro">Our work spans five research thrusts, each tackling a different facet of how AI systems understand, anticipate, and act on dynamic video.</p>
+
 <section class="thrust">
   <div class="thrust-image">
     <img src="{{ '/assets/img/research/trajpilot_crop.png' | relative_url }}" alt="TrajPilot" loading="lazy">
@@ -100,7 +120,7 @@ nav_order: 2
     <div class="thrust-recent">
       <p class="thrust-recent-label">Recent work</p>
       <ul class="thrust-recent-list">
-        <li>TrajPilot: Trajectory-Conditioned Egocentric Prediction.</li>
+        <li>How You Move Tells What You'll Do: Trajectory-Conditioned Egocentric Prediction..</li>
         <li>Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives (CVPR 2024).</li>
         <li>Ego4D Goal-Step: Toward Hierarchical Understanding of Procedural Activities (NeurIPS 2023).</li>
       </ul>
@@ -135,7 +155,7 @@ nav_order: 2
 
 <section class="thrust">
   <div class="thrust-image">
-    <img src="{{ '/assets/img/research/svi_bench_crop.png' | relative_url }}" alt="SVI-Bench" loading="lazy">
+    <img src="{{ '/assets/img/research/svi_bench.png' | relative_url }}" alt="SVI-Bench" loading="lazy">
   </div>
   <div class="thrust-body">
     <h2>3. Strategic video intelligence for multi-agent worlds</h2>

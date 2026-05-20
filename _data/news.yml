@@ -5,7 +5,7 @@
 #   content — Markdown string rendered inline.
 
 - when: "2026"
-  content: "**New paper:** *TrajPilot: Trajectory-Conditioned Egocentric Prediction.* [[project page]](https://farsightlab.github.io/TrajPilot/)"
+  content: "**New paper:** *How You Move Tells What You'll Do: Trajectory-Conditioned Egocentric Prediction.* [[project page]](https://farsightlab.github.io/TrajPilot/)"
 
 - when: "2026"
   content: "**New paper:** *RECIPE: Procedural Planning via Grounding in Instructional Video.* [[project page]](https://farsightlab.github.io/RECIPE/)"
@@ -15,6 +15,9 @@
 
 - when: "2026"
   content: "We have several openings for postdocs, visiting researchers, and PhD students to work on embodied AI, video understanding, and multimodal learning. Prospective applicants should contact [Lorenzo Torresani](mailto:L.Torresani@northeastern.edu) with a CV and a one-page research statement."
+
+- when: "Aug 2025"
+  content: "Lorenzo appointed **President Joseph E. Aoun Chair** at Northeastern University."
 
 - when: "June 2025"
   content: "Our state-space video model **BIMBA** won first place in the [EgoSchema Challenge](https://egoschema.github.io/) at **CVPR 2025**. [[project page]](https://sites.google.com/view/bimba-mllm)"
@@ -30,6 +33,3 @@
 
 - when: "2025"
   content: "Two papers accepted at **CVPR 2025**: *BIMBA* and *ViTED*."
-
-- when: "Nov 2024"
-  content: "Lorenzo appointed **President Joseph E. Aoun Chair** at Northeastern University."
