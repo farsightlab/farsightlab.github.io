@@ -91,6 +91,6 @@ nav_order: 4
   </div>
   <div class="col-sm-9">
     <h4 class="mb-1"><strong>Sejoon Jun</strong></h4>
-    <p class="mb-0"><a href="mailto:jun.se@northeastern.edu">jun.se@northeastern.edu</a></p>
+    <p class="mb-0"><a href="mailto:jun.se@northeastern.edu">jun.se@northeastern.edu</a> &middot; <a href="https://sejoonjun.github.io/Webpage/">Website</a></p>
   </div>
 </div>

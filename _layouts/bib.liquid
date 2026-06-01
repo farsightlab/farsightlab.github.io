@@ -94,10 +94,12 @@
         {% endif %}
         {%- if author_is_highlighted -%}
           {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}"><em class="farsight-author">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </em></a>
+            <a href="{{ coauthor_url }}"
+              ><em class="farsight-author">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </em></a
+            >
           {%- else -%}
             <em class="farsight-author">
               {{- author.first }}
