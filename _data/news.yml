@@ -5,6 +5,9 @@
 #   content — Markdown string rendered inline.
 
 - when: "2026"
+  content: "We released **[SVI-Bench](https://svi-bench.github.io/)**, a new benchmark for video understanding developed jointly with [Prof. Gedas Bertasius](https://www.gedasbertasius.com/)'s lab at UNC Chapel Hill. The benchmark exposes a striking capability gap in frontier models: 73% accuracy on perception, with progressively lower scores on causal reasoning and simulation, and just 5% on the most demanding task."
+
+- when: "2026"
   content: "**New paper:** *How You Move Tells What You'll Do: Trajectory-Conditioned Egocentric Prediction.* [[project page]](https://farsightlab.github.io/TrajPilot/)"
 
 - when: "2026"
