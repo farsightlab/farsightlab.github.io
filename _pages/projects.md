@@ -112,10 +112,28 @@ nav_order: 2
 
 <section class="thrust">
   <div class="thrust-image">
+    <img src="{{ '/assets/img/research/svi_bench.png' | relative_url }}" alt="SVI-Bench" loading="lazy">
+  </div>
+  <div class="thrust-body">
+    <h2>1. Strategic video intelligence for multi-agent worlds</h2>
+    <p>Most video understanding research evaluates perception in isolation. But agents deployed in the real world, including wearable assistants, robotic fleets, and coordinated teams, must also reason about cause and consequence, simulate alternative futures, and plan under uncertainty. We build benchmarks and models for the full perception-to-agency stack in dynamic multi-agent settings, using team sports as a natural microworld: rich and visually complex, with unambiguous outcomes and verifiable strategic ground truth. Our work exposes a substantial capability cliff in current systems: state-of-the-art models perceive multi-agent scenes well but fail at causal reasoning, strategic simulation, and agentic synthesis over the same evidence.</p>
+    <div class="thrust-recent">
+      <p class="thrust-recent-label">Recent work</p>
+      <ul class="thrust-recent-list">
+        <li><a href="https://svi-bench.github.io/">SVI-Bench: A Benchmark for Strategic Video Intelligence in Multi-Agent Worlds</a>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<hr class="thrust-divider">
+
+<section class="thrust">
+  <div class="thrust-image">
     <img src="{{ '/assets/img/research/trajpilot_crop.png' | relative_url }}" alt="TrajPilot" loading="lazy">
   </div>
   <div class="thrust-body">
-    <h2>1. Egocentric perception, anticipation, and planning</h2>
+    <h2>2. Egocentric perception, anticipation, and planning</h2>
     <p>Many of the most important physical AI applications, including wearable assistants, AR guidance systems, and robots operating alongside humans, perceive the world from a first-person perspective. Egocentric video has distinctive properties that make it information-rich yet poorly served by methods designed for third-person video: continuous long-duration streams, head motion encoding visual attention, and hand-object interactions at close range. We develop benchmarks, data, and models for understanding skilled human activity from this perspective, and for systems that go beyond classifying what is happening now toward anticipating what will happen next and planning multi-step procedures.</p>
     <div class="thrust-recent">
       <p class="thrust-recent-label">Recent work</p>
@@ -135,7 +153,7 @@ nav_order: 2
     <img src="{{ '/assets/img/research/recipe_crop.png' | relative_url }}" alt="RECIPE" loading="lazy">
   </div>
   <div class="thrust-body">
-    <h2>2. Learning from video at scale, without manual labels</h2>
+    <h2>3. Learning from video at scale, without manual labels</h2>
     <p>Clean labeled video datasets are small and narrow. The web offers orders of magnitude more video content, often paired with noisy speech transcripts or external articles, sometimes with no annotation at all. This abundance resists direct supervision. Narrations are temporally misaligned with the actions they describe. Speech captures actions only loosely. Step boundaries are not annotated, and many tasks lack paired text entirely.</p>
     <p>We develop methods that turn this raw abundance into a useful training signal. Some of our work aligns instructional articles with how-to videos to discover step structure, or grounds procedural steps through correspondences between video, narration, and external knowledge. Other directions mine cross-video supervision for fine-grained comparison, treat noisy corpora as verifiers of generated plans rather than label sources, or train pairs of self-evolving agents that bootstrap their own supervision from raw unlabeled video. The resulting models generalize across domains and match or surpass fully supervised baselines while requiring no human annotation.</p>
     <div class="thrust-recent">
@@ -148,18 +166,6 @@ nav_order: 2
         <li>Step Differences in Instructional Video (CVPR 2024).</li>
       </ul>
     </div>
-  </div>
-</section>
-
-<hr class="thrust-divider">
-
-<section class="thrust">
-  <div class="thrust-image">
-    <img src="{{ '/assets/img/research/svi_bench.png' | relative_url }}" alt="SVI-Bench" loading="lazy">
-  </div>
-  <div class="thrust-body">
-    <h2>3. Strategic video intelligence for multi-agent worlds</h2>
-    <p>Most video understanding research evaluates perception in isolation. But agents deployed in the real world, including wearable assistants, robotic fleets, and coordinated teams, must also reason about cause and consequence, simulate alternative futures, and plan under uncertainty. We build benchmarks and models for the full perception-to-agency stack in dynamic multi-agent settings, using team sports as a natural microworld: rich and visually complex, with unambiguous outcomes and verifiable strategic ground truth. Our work exposes a substantial capability cliff in current systems: state-of-the-art models perceive multi-agent scenes well but fail at causal reasoning, strategic simulation, and agentic synthesis over the same evidence.</p>
   </div>
 </section>
 
